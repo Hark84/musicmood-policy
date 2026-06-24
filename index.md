@@ -1,6 +1,6 @@
 # MusicMood Privacy Policy
 
-_Last updated: 2026-06-13_
+_Last updated: 2026-06-23_
 
 MusicMood is an Android application designed to help you understand the relationship between your music listening habits and your emotional well-being. The app operates on a principle of automated, passive analysis combined with user-controlled privacy.
 
