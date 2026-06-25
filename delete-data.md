@@ -4,31 +4,33 @@ title: Data Deletion Request — MusicMood
 
 # Request your MusicMood data be deleted
 
-MusicMood stores all listening history, journal entries, biometric samples, and analysis results **locally on your device**. There is no cloud account to delete.
+MusicMood stores all your data — listening history, journal entries, biometric samples, mood analyses — **locally on your device**. There is no MusicMood user account to delete.
 
-## To delete all MusicMood data immediately
-
-The fastest method (no email required):
+## Delete all on-device data
 
 1. Open your device's **Settings**
 2. Go to **Apps** → **MusicMood** → **Storage**
-3. Tap **Clear data** (this removes everything the app has stored)
-4. Optionally **Uninstall** MusicMood to remove the app itself
+3. Tap **Clear data**
+4. Optional: **Uninstall** the app
 
-This deletes 100% of MusicMood's locally-stored data on your device, instantly. There is no cloud component to wait on.
+This removes 100% of MusicMood's local data instantly.
 
-## Optional: have us confirm in writing
+## Delete Google Drive journal backups (if you enabled cloud sync)
 
-If you'd like written confirmation, or you backed up data to Google Drive via MusicMood's optional journal-sync feature and want help removing those backups, email:
+If you ever turned on the optional "Sync journal to Google Drive" feature, MusicMood wrote one file to **your own** Google Drive. You control it directly:
 
-**matthew.harkless@harkcode.app**
-
-Subject line: `MusicMood data deletion request`
-
-We will respond within 30 days.
+1. Open [Google Drive](https://drive.google.com) in any browser
+2. Find the folder named **MusicMood Journal Backup**
+3. Right-click → **Move to trash**
+4. Open the Trash and click **Empty trash** (or wait 30 days for auto-purge)
+5. Optional: revoke MusicMood's Drive access at [Google account permissions](https://myaccount.google.com/permissions)
 
 ## Background
 
-MusicMood does not maintain user accounts, server-side profiles, or any cross-device identifier. We have no database of users to look you up in. The on-device data is the entirety of your MusicMood footprint. Clearing the app's local data fully removes everything.
+MusicMood does not maintain user accounts, server-side profiles, or cross-device identifiers. There is no central database of users — we have no way to look you up, because we have no record of you. Clearing the app's local data (and your own Drive backup if you made one) is the full extent of your MusicMood footprint.
+
+## Questions
+
+If you have a question this page doesn't answer, email **matthew.harkless@harkcode.app** with subject `MusicMood data deletion question`. We reply within 30 days.
 
 _Last updated: 2026-06-24_
